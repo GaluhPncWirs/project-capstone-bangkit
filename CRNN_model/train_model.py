@@ -7,7 +7,7 @@ import numpy as np
 
 img_height = 32 
 img_width = 128
-vocab = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', ' ' , '.', 'g', 'salt', 'fat', 'sugar', 'kcal'] 
+vocab = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9' , '.', 'g', 'salt', 'fat', 'sugar', 'kcal'] 
 vocab_size = len(vocab)
 image_paths = ["data_sintetik/0.5_g_salt.png", "data_sintetik/3_g_fat.png", "data_sintetik/5_g_sugar.png", "data_sintetik/200_kcal.png"] 
 labels = ['0.5 g salt','3 g fat','5 g sugar','200 kcal']
@@ -36,8 +36,6 @@ class OCRDataGenerator(Sequence):
             raise ValueError("Batch kosong terdeteksi pada index:", idx)
         batch_paths = self.image_paths[start_idx:end_idx]
         batch_labels = self.labels[start_idx:end_idx]
-        # batch_paths = self.image_paths[idx * self.batch_size: min((idx + 1) * self.batch_size, len(self.image_paths))]
-        # batch_labels = self.labels[idx * self.batch_size: min((idx + 1) * self.batch_size, len(self.labels))]
 
         # print(f"Batch Paths: {batch_paths}, Batch Labels: {batch_labels}")
 
@@ -95,9 +93,12 @@ train_data = OCRDataGenerator(image_paths, labels, batch_size=batch_size, vocab=
 # images, labels = train_data[0]
 # print("Images shape:", images.shape)
 # print("Labels shape:", labels.shape)
+# callbacks = [
+#     EarlyStopping(monitor='loss', patience=5, restore_best_weights=True),
+#     ReduceLROnPlateau(monitor='loss', factor=0.5, patience=3)
+# ]
 
-
-model.fit(train_data, epochs=50)
+model.fit(train_data, epochs=100)
 
 def predict_text(model, imagePaths, vocab):
     prediksi = []
@@ -106,17 +107,40 @@ def predict_text(model, imagePaths, vocab):
         img = tf.expand_dims(img, axis=0)
         pred = model.predict(img)
         print("Prediksi bentuk:", pred.shape)
-        # Gunakan ctc_decode untuk model berbasis CTC
         input_len = np.ones((1,)) * pred.shape[1]
         decoded, _ = tf.keras.backend.ctc_decode(pred, input_length=input_len, greedy=True)
 
         pred_text = ''.join([vocab[i] for i in decoded[0][0].numpy() if i < len(vocab)])
         prediksi.append(pred_text)
-    return pred_text
+    return prediksi
 
 # Contoh prediksi
 predicted_text = predict_text(model, image_paths, vocab)
-print(predicted_text)
+print("untuk prediksi text ", predicted_text)
+
+# def predict_text_with_top5(model, image_paths, vocab):
+#     predictions = []
+#     for image_path in image_paths:
+#         img = preprosesing_image(image_path, img_height, img_width)
+#         img = tf.expand_dims(img, axis=0)
+#         pred = model.predict(img)
+#         print("Prediksi bentuk:", pred.shape)
+        
+#         for timestep in range(pred.shape[1]):
+#             top5_indices = np.argsort(pred[0, timestep, :])[-5:]
+#             top5_probs = pred[0, timestep, top5_indices]
+#             print(f"Timestep {timestep}: Top 5 index {top5_indices}, Probabilitas: {top5_probs}")
+        
+#         input_len = np.ones((1,)) * pred.shape[1]
+#         decoded, _ = tf.keras.backend.ctc_decode(pred, input_length=input_len, greedy=True)
+#         pred_text = ''.join([vocab[i] for i in decoded[0][0].numpy() if i < len(vocab)])
+#         predictions.append(pred_text)
+    
+#     return predictions
+
+# # Coba gunakan fungsi ini untuk meninjau hasil prediksi top-5
+# predicted_texts = predict_text_with_top5(model, image_paths, vocab)
+# print("untuk prediksi top 5 ", predicted_texts)
 
 # def calculate_accuracy(model, data_generator):
 #     correct = 0
