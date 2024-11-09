@@ -1,17 +1,23 @@
 import tensorflow as tf
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Reshape, Dense, Bidirectional, LSTM, StringLookup, Dropout
 from tensorflow.keras.utils import Sequence
-from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau
+# from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau
 import numpy as np
+import pandas as pd
 
 
 img_height = 32 
 img_width = 128
-vocab = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9' , '.', 'g', 'salt', 'fat', 'sugar', 'kcal'] 
+vocab = [
+    '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '.', 
+    'kcal', 'g', 'mg', 'sugar', 'protein', 'fiber', 'sodium', 'carbs', 
+    'salt', 'fat', 'iron', 'potassium', 'calcium'
+]
+data_ing = pd.read_csv("labels.csv")
 vocab_size = len(vocab)
-image_paths = ["data_sintetik/0.5_g_salt.png", "data_sintetik/3_g_fat.png", "data_sintetik/5_g_sugar.png", "data_sintetik/200_kcal.png"] 
-labels = ['0.5 g salt','3 g fat','5 g sugar','200 kcal']
-batch_size = len(labels)
+image_paths = data_ing['image_path'].to_list()
+labels = data_ing['label'].to_list()
+batch_size = 8
 
 class OCRDataGenerator(Sequence):
     def __init__(self, image_paths, labels, batch_size=32, img_height=32, img_width=128, vocab=None):
@@ -53,6 +59,29 @@ class OCRDataGenerator(Sequence):
 
         return batch_images, batch_labels
 
+class CTCCallback(tf.keras.callbacks.Callback):
+    def __init__(self, validation_data, vocab):
+        super().__init__()
+        self.validation_data = validation_data
+        self.vocab = vocab
+
+    def decode_batch_predictions(self, preds):
+        input_len = np.ones(preds.shape[0]) * preds.shape[1]
+        results, _ = tf.keras.backend.ctc_decode(preds, input_length=input_len, greedy=True)
+        output_text = []
+        for result in results[0]:
+            text = ''.join([self.vocab[int(i)] for i in result if int(i) < len(self.vocab)])
+            output_text.append(text)
+        return output_text
+
+    def on_epoch_end(self, epoch, logs=None):
+        batch_images, batch_labels = next(iter(self.validation_data))
+        preds = self.model.predict(batch_images)
+        pred_texts = self.decode_batch_predictions(preds)
+        accuracy = sum([pred_text == true_text for pred_text, true_text in zip(pred_texts, labels)]) / len(labels)
+        print(f" - val_accuracy: {accuracy:.4f}")
+
+
 def preprosesing_image(img_path, img_height=32, img_width=128):
     img = tf.io.read_file(img_path)
     img = tf.image.decode_png(img, channels=1)
@@ -64,18 +93,18 @@ def preprosesing_image(img_path, img_height=32, img_width=128):
 
 def build_crnn_model(vocab_size, img_width=128, img_height=32):
     input_img = tf.keras.layers.Input(shape=(img_height, img_width, 1), name="image", dtype='float32')
-    x = Conv2D(32, (3, 3), activation='relu', padding='same')(input_img)
+    x = Conv2D(64, (3, 3), activation='relu', padding='same')(input_img)
     x = MaxPooling2D((2, 2))(x)
-    x = Dropout(0.25)(x)
-    x = Conv2D(64, (3, 3), activation='relu', padding='same')(x)
-    x = MaxPooling2D((2, 2))(x)
-    x = Dropout(0.25)(x)
+    x = Dropout(0.2)(x)
     x = Conv2D(128, (3, 3), activation='relu', padding='same')(x)
     x = MaxPooling2D((2, 2))(x)
-    new_shape = ((img_width // 8), (img_height // 8) * 128)
+    x = Dropout(0.2)(x)
+    x = Conv2D(256, (3, 3), activation='relu', padding='same')(x)
+    x = MaxPooling2D((2, 2))(x)
+    new_shape = ((img_width // 8), (img_height // 8) * 256)
     x = Reshape(target_shape=new_shape)(x)
-    x = Bidirectional(LSTM(128, return_sequences=True))(x)
-    x = Dropout(0.5)(x)
+    x = Bidirectional(LSTM(256, return_sequences=True))(x)
+    x = Dropout(0.2)(x)
     x = Dense(vocab_size + 1, activation='softmax')(x)
     model = tf.keras.Model(inputs=input_img, outputs=x, name="CRNN_OCR")
     return model
@@ -87,9 +116,15 @@ def ctc_loss(y_true, y_pred):
 
 model = build_crnn_model(vocab_size)
 # model.summary()
-model.compile(optimizer=tf.keras.optimizers.Adam(), loss=ctc_loss)
+initial_learning_rate = 0.001
+lr_schedule = tf.keras.optimizers.schedules.ExponentialDecay(
+    initial_learning_rate, decay_steps=10000, decay_rate=0.9, staircase=True
+)
+model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=lr_schedule), loss=ctc_loss)
 
-train_data = OCRDataGenerator(image_paths, labels, batch_size=batch_size, vocab=vocab)
+train_data = OCRDataGenerator(image_paths[:80], labels[:80], batch_size=batch_size, vocab=vocab)
+# validation_data = OCRDataGenerator(image_paths[80:], labels[80:], batch_size=batch_size, vocab=vocab)
+# accuracy_callback = CTCCallback(validation_data=validation_data, vocab=vocab)
 # images, labels = train_data[0]
 # print("Images shape:", images.shape)
 # print("Labels shape:", labels.shape)
@@ -98,20 +133,27 @@ train_data = OCRDataGenerator(image_paths, labels, batch_size=batch_size, vocab=
 #     ReduceLROnPlateau(monitor='loss', factor=0.5, patience=3)
 # ]
 
-model.fit(train_data, epochs=100)
+model.fit(train_data, epochs=50)
 
-def predict_text(model, imagePaths, vocab):
+def predict_text(model, image_paths, vocab):
     prediksi = []
-    for imagePath in imagePaths:
+    for imagePath in image_paths:
         img = preprosesing_image(imagePath, img_height, img_width)
         img = tf.expand_dims(img, axis=0)
         pred = model.predict(img)
-        print("Prediksi bentuk:", pred.shape)
+
         input_len = np.ones((1,)) * pred.shape[1]
         decoded, _ = tf.keras.backend.ctc_decode(pred, input_length=input_len, greedy=True)
-
-        pred_text = ''.join([vocab[i] for i in decoded[0][0].numpy() if i < len(vocab)])
-        prediksi.append(pred_text)
+        raw_pred = [vocab[i] for i in decoded[0][0].numpy() if i < len(vocab)]
+        
+        # Hapus karakter berulang
+        pred_text = []
+        prev_char = None
+        for char in raw_pred:
+            if char != prev_char:
+                pred_text.append(char)
+                prev_char = char
+        prediksi.append(''.join(pred_text))
     return prediksi
 
 # Contoh prediksi

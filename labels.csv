@@ -1,0 +1,341 @@
+image_path,label
+data_sintetik/200-kcal.png,200 kcal
+data_sintetik/5-g-sugar.png,5 g sugar
+data_sintetik/0.5-g-salt.png,0.5 g salt
+data_sintetik/3-g-fat.png,3 g fat
+data_sintetik/150-kcal.png,150 kcal
+data_sintetik/10-g-protein.png,10 g protein
+data_sintetik/1-g-fiber.png,1 g fiber
+data_sintetik/4-mg-sodium.png,4 mg sodium
+data_sintetik/300-kcal.png,300 kcal
+data_sintetik/15-g-carbs.png,15 g carbs
+data_sintetik/1.2-g-salt.png,1.2 g salt
+data_sintetik/8-g-fat.png,8 g fat
+data_sintetik/100-kcal.png,100 kcal
+data_sintetik/3-g-sugar.png,3 g sugar
+data_sintetik/0.3-g-potassium.png,0.3 g potassium
+data_sintetik/2-g-fat.png,2 g fat
+data_sintetik/250-kcal.png,250 kcal
+data_sintetik/8-g-protein.png,8 g protein
+data_sintetik/0.7-g-salt.png,0.7 g salt
+data_sintetik/6-mg-iron.png,6 mg iron
+data_sintetik/180-kcal.png,180 kcal
+data_sintetik/12-g-fiber.png,12 g fiber
+data_sintetik/1.1-g-sodium.png,1.1 g sodium
+data_sintetik/5-g-fat.png,5 g fat
+data_sintetik/220-kcal.png,220 kcal
+data_sintetik/7-g-sugar.png,7 g sugar
+data_sintetik/0.4-g-calcium.png,0.4 g calcium
+data_sintetik/3.5-g-protein.png,3.5 g protein
+data_sintetik/270-kcal.png,270 kcal
+data_sintetik/9-g-fat.png,9 g fat
+data_sintetik/0.6-g-salt.png,0.6 g salt
+data_sintetik/4.5-g-carbs.png,4.5 g carbs
+data_sintetik/230-kcal.png,230 kcal
+data_sintetik/6-g-sugar.png,6 g sugar
+data_sintetik/1.3-g-fiber.png,1.3 g fiber
+data_sintetik/7-g-fat.png,7 g fat
+data_sintetik/140-kcal.png,140 kcal
+data_sintetik/4-g-protein.png,4 g protein
+data_sintetik/0.8-g-sodium.png,0.8 g sodium
+data_sintetik/2.5-g-fat.png,2.5 g fat
+data_sintetik/160-kcal.png,160 kcal
+data_sintetik/11-g-sugar.png,11 g sugar
+data_sintetik/1.5-g-iron.png,1.5 g iron
+data_sintetik/6.5-g-fiber.png,6.5 g fiber
+data_sintetik/210-kcal.png,210 kcal
+data_sintetik/5.5-g-carbs.png,5.5 g carbs
+data_sintetik/0.9-g-potassium.png,0.9 g potassium
+data_sintetik/4.2-g-fat.png,4.2 g fat
+data_sintetik/240-kcal.png,240 kcal
+data_sintetik/13-g-fiber.png,13 g fiber
+data_sintetik/1.4-g-sodium.png,1.4 g sodium
+data_sintetik/7.5-g-protein.png,7.5 g protein
+data_sintetik/110-kcal.png,110 kcal
+data_sintetik/2-g-sugar.png,2 g sugar
+data_sintetik/0.5-g-calcium.png,0.5 g calcium
+data_sintetik/1-g-fat.png,1 g fat
+data_sintetik/280-kcal.png,280 kcal
+data_sintetik/6-g-fiber.png,6 g fiber
+data_sintetik/1-g-salt.png,1 g salt
+data_sintetik/4-g-protein.png,4 g protein
+data_sintetik/190-kcal.png,190 kcal
+data_sintetik/3-g-fat.png,3 g fat
+data_sintetik/0.6-g-iron.png,0.6 g iron
+data_sintetik/5-g-carbs.png,5 g carbs
+data_sintetik/130-kcal.png,130 kcal
+data_sintetik/9-g-protein.png,9 g protein
+data_sintetik/0.7-g-sodium.png,0.7 g sodium
+data_sintetik/3-g-fiber.png,3 g fiber
+data_sintetik/170-kcal.png,170 kcal
+data_sintetik/12-g-sugar.png,12 g sugar
+data_sintetik/0.4-g-potassium.png,0.4 g potassium
+data_sintetik/5.5-g-fat.png,5.5 g fat
+data_sintetik/220-kcal.png,220 kcal
+data_sintetik/5-g-carbs.png,5 g carbs
+data_sintetik/0.8-g-salt.png,0.8 g salt
+data_sintetik/6-g-protein.png,6 g protein
+data_sintetik/250-kcal.png,250 kcal
+data_sintetik/4-g-sugar.png,4 g sugar
+data_sintetik/1-g-iron.png,1 g iron
+data_sintetik/3-g-fiber.png,3 g fiber
+data_sintetik/160-kcal.png,160 kcal
+data_sintetik/10-g-protein.png,10 g protein
+data_sintetik/0.9-g-sodium.png,0.9 g sodium
+data_sintetik/5-g-fat.png,5 g fat
+data_sintetik/290-kcal.png,290 kcal
+data_sintetik/7-g-carbs.png,7 g carbs
+data_sintetik/1.2-g-calcium.png,1.2 g calcium
+data_sintetik/8-g-fiber.png,8 g fiber
+data_sintetik/120-kcal.png,120 kcal
+data_sintetik/3-g-sugar.png,3 g sugar
+data_sintetik/0.6-g-salt.png,0.6 g salt
+data_sintetik/4.5-g-fat.png,4.5 g fat
+data_sintetik/270-kcal.png,270 kcal
+data_sintetik/8-g-fiber.png,8 g fiber
+data_sintetik/1-g-iron.png,1 g iron
+data_sintetik/6-g-protein.png,6 g protein
+data_sintetik/140-kcal.png,140 kcal
+data_sintetik/2-g-sugar.png,2 g sugar
+data_sintetik/0.3-g-potassium.png,0.3 g potassium
+data_sintetik/1.5-g-fat.png,1.5 g fat
+data_sintetik/210-kcal.png,210 kcal
+data_sintetik/9-g-protein.png,9 g protein
+data_sintetik/1.1-g-salt.png,1.1 g salt
+data_sintetik/3-g-fiber.png,3 g fiber
+data_sintetik/180-kcal.png,180 kcal
+data_sintetik/4-g-carbs.png,4 g carbs
+data_sintetik/0.5-g-sodium.png,0.5 g sodium
+data_sintetik/7-g-fat.png,7 g fat
+data_sintetik/230-kcal.png,230 kcal
+data_sintetik/10-g-sugar.png,10 g sugar
+data_sintetik/0.6-g-calcium.png,0.6 g calcium
+data_sintetik/5-g-fiber.png,5 g fiber
+data_sintetik/250-kcal.png,250 kcal
+data_sintetik/6-g-protein.png,6 g protein
+data_sintetik/1.3-g-salt.png,1.3 g salt
+data_sintetik/4-g-fat.png,4 g fat
+data_sintetik/170-kcal.png,170 kcal
+data_sintetik/3-g-carbs.png,3 g carbs
+data_sintetik/0.8-g-iron.png,0.8 g iron
+data_sintetik/6.5-g-fiber.png,6.5 g fiber
+data_sintetik/280-kcal.png,280 kcal
+data_sintetik/5-g-fat.png,5 g fat
+data_sintetik/0.4-g-sodium.png,0.4 g sodium
+data_sintetik/9-g-protein.png,9 g protein
+data_sintetik/150-kcal.png,150 kcal
+data_sintetik/12-g-sugar.png,12 g sugar
+data_sintetik/0.7-g-calcium.png,0.7 g calcium
+data_sintetik/2.5-g-fiber.png,2.5 g fiber
+data_sintetik/130-kcal.png,130 kcal
+data_sintetik/7-g-protein.png,7 g protein
+data_sintetik/1-g-iron.png,1 g iron
+data_sintetik/4-g-carbs.png,4 g carbs
+data_sintetik/200-kcal.png,200 kcal
+data_sintetik/3-g-fiber.png,3 g fiber
+data_sintetik/0.9-g-sodium.png,0.9 g sodium
+data_sintetik/6-g-fat.png,6 g fat
+data_sintetik/260-kcal.png,260 kcal
+data_sintetik/8-g-sugar.png,8 g sugar
+data_sintetik/1.1-g-potassium.png,1.1 g potassium
+data_sintetik/5.5-g-protein.png,5.5 g protein
+data_sintetik/180-kcal.png,180 kcal
+data_sintetik/5-g-carbs.png,5 g carbs
+data_sintetik/0.5-g-salt.png,0.5 g salt
+data_sintetik/7-g-fat.png,7 g fat
+data_sintetik/220-kcal.png,220 kcal
+data_sintetik/6-g-protein.png,6 g protein
+data_sintetik/1-g-fiber.png,1 g fiber
+data_sintetik/4-g-sugar.png,4 g sugar
+data_sintetik/240-kcal.png,240 kcal
+data_sintetik/2-g-fat.png,2 g fat
+data_sintetik/0.6-g-iron.png,0.6 g iron
+data_sintetik/8-g-carbs.png,8 g carbs
+data_sintetik/200-kcal.png,200 kcal
+data_sintetik/10-g-fiber.png,10 g fiber
+data_sintetik/1.4-g-calcium.png,1.4 g calcium
+data_sintetik/3-g-protein.png,3 g protein
+data_sintetik/190-kcal.png,190 kcal
+data_sintetik/4-g-sugar.png,4 g sugar
+data_sintetik/0.8-g-sodium.png,0.8 g sodium
+data_sintetik/5-g-fat.png,5 g fat
+data_sintetik/270-kcal.png,270 kcal
+data_sintetik/7-g-protein.png,7 g protein
+data_sintetik/1-g-salt.png,1 g salt
+data_sintetik/4-g-fiber.png,4 g fiber
+data_sintetik/210-kcal.png,210 kcal
+data_sintetik/3-g-carbs.png,3 g carbs
+data_sintetik/1.1-g-potassium.png,1.1 g potassium
+data_sintetik/6-g-fat.png,6 g fat
+data_sintetik/140-kcal.png,140 kcal
+data_sintetik/5-g-protein.png,5 g protein
+data_sintetik/0.4-g-iron.png,0.4 g iron
+data_sintetik/9-g-fiber.png,9 g fiber
+data_sintetik/150-kcal.png,150 kcal
+data_sintetik/11-g-sugar.png,11 g sugar
+data_sintetik/0.7-g-salt.png,0.7 g salt
+data_sintetik/2.5-g-carbs.png,2.5 g carbs
+data_sintetik/260-kcal.png,260 kcal
+data_sintetik/4-g-fat.png,4 g fat
+data_sintetik/1.3-g-sodium.png,1.3 g sodium
+data_sintetik/7-g-protein.png,7 g protein
+data_sintetik/170-kcal.png,170 kcal
+data_sintetik/9-g-fiber.png,9 g fiber
+data_sintetik/0.5-g-calcium.png,0.5 g calcium
+data_sintetik/5-g-carbs.png,5 g carbs
+data_sintetik/130-kcal.png,130 kcal
+data_sintetik/6-g-protein.png,6 g protein
+data_sintetik/0.6-g-salt.png,0.6 g salt
+data_sintetik/3-g-fat.png,3 g fat
+data_sintetik/200-kcal.png,200 kcal
+data_sintetik/8-g-sugar.png,8 g sugar
+data_sintetik/0.8-g-iron.png,0.8 g iron
+data_sintetik/7-g-fiber.png,7 g fiber
+data_sintetik/110-kcal.png,110 kcal
+data_sintetik/4-g-protein.png,4 g protein
+data_sintetik/1-g-sodium.png,1 g sodium
+data_sintetik/2-g-carbs.png,2 g carbs
+data_sintetik/240-kcal.png,240 kcal
+data_sintetik/7-g-fat.png,7 g fat
+data_sintetik/0.3-g-potassium.png,0.3 g potassium
+data_sintetik/5-g-sugar.png,5 g sugar
+data_sintetik/150-kcal.png,150 kcal
+data_sintetik/3-g-fiber.png,3 g fiber
+data_sintetik/0.9-g-salt.png,0.9 g salt
+data_sintetik/6.5-g-protein.png,6.5 g protein
+data_sintetik/220-kcal.png,220 kcal
+data_sintetik/10-g-carbs.png,10 g carbs
+data_sintetik/1.2-g-calcium.png,1.2 g calcium
+data_sintetik/4-g-fat.png,4 g fat
+data_sintetik/120-kcal.png,120 kcal
+data_sintetik/5-g-sugar.png,5 g sugar
+data_sintetik/0.5-g-sodium.png,0.5 g sodium
+data_sintetik/8-g-protein.png,8 g protein
+data_sintetik/250-kcal.png,250 kcal
+data_sintetik/4-g-fat.png,4 g fat
+data_sintetik/1-g-iron.png,1 g iron
+data_sintetik/7.5-g-fiber.png,7.5 g fiber
+data_sintetik/170-kcal.png,170 kcal
+data_sintetik/2-g-protein.png,2 g protein
+data_sintetik/0.6-g-salt.png,0.6 g salt
+data_sintetik/5-g-carbs.png,5 g carbs
+data_sintetik/140-kcal.png,140 kcal
+data_sintetik/6-g-sugar.png,6 g sugar
+data_sintetik/0.8-g-potassium.png,0.8 g potassium
+data_sintetik/3.5-g-fat.png,3.5 g fat
+data_sintetik/210-kcal.png,210 kcal
+data_sintetik/9-g-fiber.png,9 g fiber
+data_sintetik/1-g-calcium.png,1 g calcium
+data_sintetik/6-g-protein.png,6 g protein
+data_sintetik/130-kcal.png,130 kcal
+data_sintetik/5-g-carbs.png,5 g carbs
+data_sintetik/0.4-g-sodium.png,0.4 g sodium
+data_sintetik/7-g-fat.png,7 g fat
+data_sintetik/190-kcal.png,190 kcal
+data_sintetik/3-g-protein.png,3 g protein
+data_sintetik/1.1-g-salt.png,1.1 g salt
+data_sintetik/8-g-fiber.png,8 g fiber
+data_sintetik/270-kcal.png,270 kcal
+data_sintetik/10-g-fat.png,10 g fat
+data_sintetik/0.7-g-iron.png,0.7 g iron
+data_sintetik/4-g-sugar.png,4 g sugar
+data_sintetik/150-kcal.png,150 kcal
+data_sintetik/8-g-fiber.png,8 g fiber
+data_sintetik/0.5-g-salt.png,0.5 g salt
+data_sintetik/6-g-protein.png,6 g protein
+data_sintetik/280-kcal.png,280 kcal
+data_sintetik/4-g-sugar.png,4 g sugar
+data_sintetik/1-g-calcium.png,1 g calcium
+data_sintetik/7-g-carbs.png,7 g carbs
+data_sintetik/160-kcal.png,160 kcal
+data_sintetik/5-g-fat.png,5 g fat
+data_sintetik/0.9-g-potassium.png,0.9 g potassium
+data_sintetik/3-g-fiber.png,3 g fiber
+data_sintetik/240-kcal.png,240 kcal
+data_sintetik/6-g-protein.png,6 g protein
+data_sintetik/1.2-g-salt.png,1.2 g salt
+data_sintetik/4-g-sugar.png,4 g sugar
+data_sintetik/180-kcal.png,180 kcal
+data_sintetik/7-g-carbs.png,7 g carbs
+data_sintetik/0.6-g-sodium.png,0.6 g sodium
+data_sintetik/9-g-fat.png,9 g fat
+data_sintetik/220-kcal.png,220 kcal
+data_sintetik/2-g-sugar.png,2 g sugar
+data_sintetik/1.3-g-iron.png,1.3 g iron
+data_sintetik/5.5-g-fiber.png,5.5 g fiber
+data_sintetik/200-kcal.png,200 kcal
+data_sintetik/9-g-protein.png,9 g protein
+data_sintetik/0.7-g-potassium.png,0.7 g potassium
+data_sintetik/3-g-fat.png,3 g fat
+data_sintetik/110-kcal.png,110 kcal
+data_sintetik/6-g-carbs.png,6 g carbs
+data_sintetik/0.4-g-salt.png,0.4 g salt
+data_sintetik/8-g-fiber.png,8 g fiber
+data_sintetik/130-kcal.png,130 kcal
+data_sintetik/8-g-protein.png,8 g protein
+data_sintetik/1-g-sodium.png,1 g sodium
+data_sintetik/5-g-fat.png,5 g fat
+data_sintetik/250-kcal.png,250 kcal
+data_sintetik/3-g-fiber.png,3 g fiber
+data_sintetik/1.5-g-calcium.png,1.5 g calcium
+data_sintetik/6-g-sugar.png,6 g sugar
+data_sintetik/170-kcal.png,170 kcal
+data_sintetik/7-g-fat.png,7 g fat
+data_sintetik/0.6-g-salt.png,0.6 g salt
+data_sintetik/4-g-carbs.png,4 g carbs
+data_sintetik/210-kcal.png,210 kcal
+data_sintetik/10-g-protein.png,10 g protein
+data_sintetik/0.8-g-potassium.png,0.8 g potassium
+data_sintetik/2-g-fiber.png,2 g fiber
+data_sintetik/190-kcal.png,190 kcal
+data_sintetik/4-g-sugar.png,4 g sugar
+data_sintetik/1-g-iron.png,1 g iron
+data_sintetik/7-g-protein.png,7 g protein
+data_sintetik/140-kcal.png,140 kcal
+data_sintetik/6-g-fiber.png,6 g fiber
+data_sintetik/0.5-g-sodium.png,0.5 g sodium
+data_sintetik/5.5-g-fat.png,5.5 g fat
+data_sintetik/120-kcal.png,120 kcal
+data_sintetik/9-g-protein.png,9 g protein
+data_sintetik/1.1-g-salt.png,1.1 g salt
+data_sintetik/3-g-carbs.png,3 g carbs
+data_sintetik/280-kcal.png,280 kcal
+data_sintetik/2-g-fat.png,2 g fat
+data_sintetik/0.7-g-calcium.png,0.7 g calcium
+data_sintetik/8-g-fiber.png,8 g fiber
+data_sintetik/240-kcal.png,240 kcal
+data_sintetik/5-g-sugar.png,5 g sugar
+data_sintetik/0.4-g-salt.png,0.4 g salt
+data_sintetik/6-g-protein.png,6 g protein
+data_sintetik/150-kcal.png,150 kcal
+data_sintetik/10-g-fiber.png,10 g fiber
+data_sintetik/1-g-iron.png,1 g iron
+data_sintetik/4-g-fat.png,4 g fat
+data_sintetik/260-kcal.png,260 kcal
+data_sintetik/3-g-protein.png,3 g protein
+data_sintetik/0.9-g-potassium.png,0.9 g potassium
+data_sintetik/7.5-g-carbs.png,7.5 g carbs
+data_sintetik/200-kcal.png,200 kcal
+data_sintetik/8-g-fat.png,8 g fat
+data_sintetik/1.2-g-salt.png,1.2 g salt
+data_sintetik/5-g-sugar.png,5 g sugar
+data_sintetik/180-kcal.png,180 kcal
+data_sintetik/4-g-carbs.png,4 g carbs
+data_sintetik/0.6-g-sodium.png,0.6 g sodium
+data_sintetik/9-g-protein.png,9 g protein
+data_sintetik/170-kcal.png,170 kcal
+data_sintetik/2-g-fiber.png,2 g fiber
+data_sintetik/1.3-g-iron.png,1.3 g iron
+data_sintetik/6-g-fat.png,6 g fat
+data_sintetik/140-kcal.png,140 kcal
+data_sintetik/7-g-protein.png,7 g protein
+data_sintetik/0.5-g-calcium.png,0.5 g calcium
+data_sintetik/3-g-sugar.png,3 g sugar
+data_sintetik/250-kcal.png,250 kcal
+data_sintetik/6-g-fiber.png,6 g fiber
+data_sintetik/0.8-g-potassium.png,0.8 g potassium
+data_sintetik/5-g-fat.png,5 g fat
+data_sintetik/160-kcal.png,160 kcal
+data_sintetik/3-g-fat.png,3 g fat
+data_sintetik/1-g-salt.png,1 g salt
+data_sintetik/9-g-carbs.png,9 g carbs
