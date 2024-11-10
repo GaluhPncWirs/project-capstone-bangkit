@@ -6,11 +6,8 @@ import os
 def create_image_toText(text, img_width=128, img_height=32, font_size=18, font_path="font/Helvetica.ttf"):
     img = Image.new('L', (img_width, img_height), color=255)
     draw_img = ImageDraw.Draw(img)
-
     font = ImageFont.truetype(font_path, font_size)
-
     draw_img.text((5,5), text, font=font, fill=0)
-
     return np.array(img)
 
 

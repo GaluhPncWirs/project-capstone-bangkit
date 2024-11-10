@@ -1,7 +1,7 @@
 import tensorflow as tf
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Reshape, Dense, Bidirectional, LSTM, StringLookup, Dropout
 from tensorflow.keras.utils import Sequence
-# from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau
+from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau
 import numpy as np
 import pandas as pd
 
@@ -81,6 +81,25 @@ class CTCCallback(tf.keras.callbacks.Callback):
         accuracy = sum([pred_text == true_text for pred_text, true_text in zip(pred_texts, labels)]) / len(labels)
         print(f" - val_accuracy: {accuracy:.4f}")
 
+    # def on_epoch_end(self, epoch, logs=None):
+    #     # Mengambil batch validasi pertama untuk evaluasi
+    #     batch_images, batch_labels = next(iter(self.validation_data))
+        
+    #     # Prediksi hasil dari model
+    #     preds = self.model.predict(batch_images)
+    #     pred_texts = self.decode_batch_predictions(preds)
+        
+    #     # Konversi batch_labels menjadi teks untuk perbandingan
+    #     true_texts = []
+    #     for label in batch_labels:
+    #         text = ''.join([self.vocab[int(i)] for i in label if int(i) < len(self.vocab) and i != 0])
+    #         true_texts.append(text)
+        
+    #     # Hitung akurasi
+    #     correct = sum([pred == true for pred, true in zip(pred_texts, true_texts)])
+    #     accuracy = correct / len(true_texts)
+    #     print(f" - val_accuracy: {accuracy:.4f}")
+
 
 def preprosesing_image(img_path, img_height=32, img_width=128):
     img = tf.io.read_file(img_path)
@@ -123,8 +142,8 @@ lr_schedule = tf.keras.optimizers.schedules.ExponentialDecay(
 model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=lr_schedule), loss=ctc_loss)
 
 train_data = OCRDataGenerator(image_paths[:80], labels[:80], batch_size=batch_size, vocab=vocab)
-# validation_data = OCRDataGenerator(image_paths[80:], labels[80:], batch_size=batch_size, vocab=vocab)
-# accuracy_callback = CTCCallback(validation_data=validation_data, vocab=vocab)
+validation_data = OCRDataGenerator(image_paths[80:], labels[80:], batch_size=batch_size, vocab=vocab)
+accuracy_callback = CTCCallback(validation_data=validation_data, vocab=vocab)
 # images, labels = train_data[0]
 # print("Images shape:", images.shape)
 # print("Labels shape:", labels.shape)
@@ -133,36 +152,41 @@ train_data = OCRDataGenerator(image_paths[:80], labels[:80], batch_size=batch_si
 #     ReduceLROnPlateau(monitor='loss', factor=0.5, patience=3)
 # ]
 
-model.fit(train_data, epochs=50)
+model.fit(
+    train_data,
+    validation_data=validation_data,
+    epochs=30,
+    callbacks=[accuracy_callback]
+)
 
 
-def clean_predic(prediction):
-    tokens = prediction.split('calcium')
-    clean_text = 'calcium'.join(dict.fromkeys(tokens))
-    return clean_text
+# def clean_predic(prediction):
+#     tokens = prediction.split('calcium')
+#     clean_text = 'calcium'.join(dict.fromkeys(tokens))
+#     return clean_text
 
-def predict_text(model, image_paths, vocab):
-    prediksi = []
-    for imagePath in image_paths:
-        img = preprosesing_image(imagePath, img_height, img_width)
-        img = tf.expand_dims(img, axis=0)
-        pred = model.predict(img)
+# def predict_text(model, image_paths, vocab):
+#     prediksi = []
+#     for imagePath in image_paths:
+#         img = preprosesing_image(imagePath, img_height, img_width)
+#         img = tf.expand_dims(img, axis=0)
+#         pred = model.predict(img)
 
-        input_len = np.ones((1,)) * pred.shape[1]
-        decoded, _ = tf.keras.backend.ctc_decode(pred, input_length=input_len, greedy=True)
-        raw_pred = [vocab[i] for i in decoded[0][0].numpy() if i < len(vocab)]
-        pred_text = []
-        prev_char = None
-        for char in raw_pred:
-            if char != prev_char:
-                pred_text.append(char)
-                prev_char = char
-        prediksi.append(''.join(pred_text))
-    return prediksi
+#         input_len = np.ones((1,)) * pred.shape[1]
+#         decoded, _ = tf.keras.backend.ctc_decode(pred, input_length=input_len, greedy=True)
+#         raw_pred = [vocab[i] for i in decoded[0][0].numpy() if i < len(vocab)]
+#         pred_text = []
+#         prev_char = None
+#         for char in raw_pred:
+#             if char != prev_char:
+#                 pred_text.append(char)
+#                 prev_char = char
+#         prediksi.append(''.join(pred_text))
+#     return prediksi
 
-# Contoh prediksi
-predicted_text = predict_text(model, image_paths, vocab)
-print("untuk prediksi text ", predicted_text)
+# # Contoh prediksi
+# predicted_text = predict_text(model, image_paths, vocab)
+# print("untuk prediksi text ", predicted_text)
 
 # def predict_text_with_top5(model, image_paths, vocab):
 #     predictions = []
