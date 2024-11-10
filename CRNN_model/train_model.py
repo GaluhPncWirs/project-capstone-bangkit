@@ -105,7 +105,7 @@ def build_crnn_model(vocab_size, img_width=128, img_height=32):
     x = Reshape(target_shape=new_shape)(x)
     x = Bidirectional(LSTM(256, return_sequences=True))(x)
     x = Dropout(0.2)(x)
-    x = Dense(vocab_size + 1, activation='softmax')(x)
+    x = Dense(vocab_size + 1, activation='softmax', kernel_regularizer=tf.keras.regularizers.l2(0.01))(x)
     model = tf.keras.Model(inputs=input_img, outputs=x, name="CRNN_OCR")
     return model
 
@@ -135,6 +135,12 @@ train_data = OCRDataGenerator(image_paths[:80], labels[:80], batch_size=batch_si
 
 model.fit(train_data, epochs=50)
 
+
+def clean_predic(prediction):
+    tokens = prediction.split('calcium')
+    clean_text = 'calcium'.join(dict.fromkeys(tokens))
+    return clean_text
+
 def predict_text(model, image_paths, vocab):
     prediksi = []
     for imagePath in image_paths:
@@ -145,8 +151,6 @@ def predict_text(model, image_paths, vocab):
         input_len = np.ones((1,)) * pred.shape[1]
         decoded, _ = tf.keras.backend.ctc_decode(pred, input_length=input_len, greedy=True)
         raw_pred = [vocab[i] for i in decoded[0][0].numpy() if i < len(vocab)]
-        
-        # Hapus karakter berulang
         pred_text = []
         prev_char = None
         for char in raw_pred:
