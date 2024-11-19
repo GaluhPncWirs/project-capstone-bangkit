@@ -81,25 +81,6 @@ class CTCCallback(tf.keras.callbacks.Callback):
         accuracy = sum([pred_text == true_text for pred_text, true_text in zip(pred_texts, labels)]) / len(labels)
         print(f" - val_accuracy: {accuracy:.4f}")
 
-    # def on_epoch_end(self, epoch, logs=None):
-    #     # Mengambil batch validasi pertama untuk evaluasi
-    #     batch_images, batch_labels = next(iter(self.validation_data))
-        
-    #     # Prediksi hasil dari model
-    #     preds = self.model.predict(batch_images)
-    #     pred_texts = self.decode_batch_predictions(preds)
-        
-    #     # Konversi batch_labels menjadi teks untuk perbandingan
-    #     true_texts = []
-    #     for label in batch_labels:
-    #         text = ''.join([self.vocab[int(i)] for i in label if int(i) < len(self.vocab) and i != 0])
-    #         true_texts.append(text)
-        
-    #     # Hitung akurasi
-    #     correct = sum([pred == true for pred, true in zip(pred_texts, true_texts)])
-    #     accuracy = correct / len(true_texts)
-    #     print(f" - val_accuracy: {accuracy:.4f}")
-
 
 def preprosesing_image(img_path, img_height=32, img_width=128):
     img = tf.io.read_file(img_path)

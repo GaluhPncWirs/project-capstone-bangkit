@@ -1,0 +1,872 @@
+image_path,label
+data_for_train_model\text_0.png,Energi 120 kkal
+data_for_train_model\text_1.png,Lemak total 2.50 g
+data_for_train_model\text_2.png,Lemak jenuh 2 g
+data_for_train_model\text_3.png,Gula 17 g
+data_for_train_model\text_4.png,Karbohidrat total 23 g
+data_for_train_model\text_5.png,Protein 1 g
+data_for_train_model\text_6.png,Serat pangan 2 g
+data_for_train_model\text_7.png,Natrium 20 mg
+data_for_train_model\text_8.png,Energi 130 kkal
+data_for_train_model\text_9.png,Lemak total 2.50 g
+data_for_train_model\text_10.png,Karbohidrat total 27 g
+data_for_train_model\text_11.png,Protein 1 g
+data_for_train_model\text_12.png,Natrium 15 mg
+data_for_train_model\text_13.png,Jumlah Per Sajian (250 ml)
+data_for_train_model\text_14.png,Energi 140 kkal
+data_for_train_model\text_15.png,Lemak total 0 g
+data_for_train_model\text_16.png,Karbohidrat total 34 g
+data_for_train_model\text_17.png,Protein 0 g
+data_for_train_model\text_18.png,Natrium 0 mg
+data_for_train_model\text_19.png,Jumlah Per Sajian (250 ml)
+data_for_train_model\text_20.png,Energi 160 kkal
+data_for_train_model\text_21.png,Lemak total 0 g
+data_for_train_model\text_22.png,Karbohidrat total 36 g
+data_for_train_model\text_23.png,Protein 2 g
+data_for_train_model\text_24.png,Natrium 0 mg
+data_for_train_model\text_25.png,Jumlah Per Sajian (46 g)
+data_for_train_model\text_26.png,Energi 190 kkal
+data_for_train_model\text_27.png,Lemak total 4.50 g
+data_for_train_model\text_28.png,Karbohidrat total 28 g
+data_for_train_model\text_29.png,Protein 9 g
+data_for_train_model\text_30.png,Natrium 160 mg
+data_for_train_model\text_31.png,Jumlah Per Sajian (189 g)
+data_for_train_model\text_32.png,Energi 120 kkal
+data_for_train_model\text_33.png,Energi dari lemak 60 kkal
+data_for_train_model\text_34.png,Lemak total 7 g
+data_for_train_model\text_35.png,Lemak jenuh 5 g
+data_for_train_model\text_36.png,Kolesterol 25 mg
+data_for_train_model\text_37.png,Karbohidrat total 9 g
+data_for_train_model\text_38.png,Protein 6 g
+data_for_train_model\text_39.png,Natrium 115 mg
+data_for_train_model\text_40.png,Jumlah Per Sajian (40 g)
+data_for_train_model\text_41.png,Energi 160 kkal
+data_for_train_model\text_42.png,Lemak total 4 g
+data_for_train_model\text_43.png,Karbohidrat total 24 g
+data_for_train_model\text_44.png,Protein 6 g
+data_for_train_model\text_45.png,Natrium 75 mg
+data_for_train_model\text_46.png,Energi 0 kkal
+data_for_train_model\text_47.png,Lemak total 0 g
+data_for_train_model\text_48.png,Karbohidrat total 0 g
+data_for_train_model\text_49.png,Protein 0 g
+data_for_train_model\text_50.png,Natrium 0 mg
+data_for_train_model\text_51.png,Energi 110 kkal
+data_for_train_model\text_52.png,Lemak total 1.50 g
+data_for_train_model\text_53.png,Karbohidrat total 22 g
+data_for_train_model\text_54.png,Protein 1 g
+data_for_train_model\text_55.png,Natrium 110 mg
+data_for_train_model\text_56.png,Energi 260 kkal
+data_for_train_model\text_57.png,Lemak total 10 g
+data_for_train_model\text_58.png,Karbohidrat total 34 g
+data_for_train_model\text_59.png,Protein 10 g
+data_for_train_model\text_60.png,Natrium 150 mg
+data_for_train_model\text_61.png,Energi 240 kkal
+data_for_train_model\text_62.png,Lemak total 8 g
+data_for_train_model\text_63.png,Karbohidrat total 33 g
+data_for_train_model\text_64.png,Protein 9 g
+data_for_train_model\text_65.png,Natrium 100 mg
+data_for_train_model\text_66.png,Jumlah Per Sajian (250 ml)
+data_for_train_model\text_67.png,Energi 180 kkal
+data_for_train_model\text_68.png,Lemak total 2 g
+data_for_train_model\text_69.png,Karbohidrat total 32 g
+data_for_train_model\text_70.png,Protein 6 g
+data_for_train_model\text_71.png,Serat pangan 26 g
+data_for_train_model\text_72.png,Natrium 0 mg
+data_for_train_model\text_73.png,Energi 70 kkal
+data_for_train_model\text_74.png,Energi dari lemak 15 kkal
+data_for_train_model\text_75.png,Lemak total 2 g
+data_for_train_model\text_76.png,Gula 7 g
+data_for_train_model\text_77.png,Karbohidrat total 12 g
+data_for_train_model\text_78.png,Protein 2 g
+data_for_train_model\text_79.png,Natrium 60 mg
+data_for_train_model\text_80.png,Kalium 100 mg
+data_for_train_model\text_81.png,Energi 70 kkal
+data_for_train_model\text_82.png,Lemak total 2 g
+data_for_train_model\text_83.png,Karbohidrat total 11 g
+data_for_train_model\text_84.png,Protein 2 g
+data_for_train_model\text_85.png,Natrium 60 mg
+data_for_train_model\text_86.png,Energi 70 kkal
+data_for_train_model\text_87.png,Energi dari lemak 15 kkal
+data_for_train_model\text_88.png,Lemak total 1.50 g
+data_for_train_model\text_89.png,Gula 9 g
+data_for_train_model\text_90.png,Karbohidrat total 12 g
+data_for_train_model\text_91.png,Protein 2 g
+data_for_train_model\text_92.png,Natrium 60 mg
+data_for_train_model\text_93.png,Kalium 105 mg
+data_for_train_model\text_94.png,Jumlah Per Sajian (30 g)
+data_for_train_model\text_95.png,Energi 120 kkal
+data_for_train_model\text_96.png,Lemak total 4 g
+data_for_train_model\text_97.png,Karbohidrat total 15 g
+data_for_train_model\text_98.png,Protein 6 g
+data_for_train_model\text_99.png,Natrium 0 mg
+data_for_train_model\text_100.png,Jumlah Per Sajian (22 g)
+data_for_train_model\text_101.png,Energi 80 kkal
+data_for_train_model\text_102.png,Lemak total 0 g
+data_for_train_model\text_103.png,Gula 9 g
+data_for_train_model\text_104.png,Karbohidrat total 16 g
+data_for_train_model\text_105.png,Protein 0 g
+data_for_train_model\text_106.png,Serat pangan 6 g
+data_for_train_model\text_107.png,Natrium 55 mg
+data_for_train_model\text_108.png,Energi 120 kkal
+data_for_train_model\text_109.png,Energi dari lemak 50 kkal
+data_for_train_model\text_110.png,Lemak total 6 g
+data_for_train_model\text_111.png,Lemak jenuh 3 g
+data_for_train_model\text_112.png,Gula 11 g
+data_for_train_model\text_113.png,Kolesterol 20 mg
+data_for_train_model\text_114.png,Karbohidrat total 14 g
+data_for_train_model\text_115.png,Protein 5 g
+data_for_train_model\text_116.png,Natrium 90 mg
+data_for_train_model\text_117.png,Jumlah Per Sajian (25 g)
+data_for_train_model\text_118.png,Energi 120 kkal
+data_for_train_model\text_119.png,Lemak total 7 g
+data_for_train_model\text_120.png,Karbohidrat total 10 g
+data_for_train_model\text_121.png,Protein 6 g
+data_for_train_model\text_122.png,Natrium 90 mg
+data_for_train_model\text_123.png,Energi 160 kkal
+data_for_train_model\text_124.png,Energi dari lemak 60 kkal
+data_for_train_model\text_125.png,Lemak total 6 g
+data_for_train_model\text_126.png,Lemak jenuh 2 g
+data_for_train_model\text_127.png,Lemak trans 0 g
+data_for_train_model\text_128.png,Gula 15 g
+data_for_train_model\text_129.png,Kolesterol 4 mg
+data_for_train_model\text_130.png,Karbohidrat total 22 g
+data_for_train_model\text_131.png,Protein 5 g
+data_for_train_model\text_132.png,Asam linoleat 893 g
+data_for_train_model\text_133.png,Asam a-linolenat 77 g
+data_for_train_model\text_134.png,Natrium 100 mg
+data_for_train_model\text_135.png,Kalium 180 mg
+data_for_train_model\text_136.png,Jumlah Per Sajian (200 ml)
+data_for_train_model\text_137.png,Energi 120 kkal
+data_for_train_model\text_138.png,Lemak total 6 g
+data_for_train_model\text_139.png,Karbohidrat total 10 g
+data_for_train_model\text_140.png,Protein 6 g
+data_for_train_model\text_141.png,Natrium 100 mg
+data_for_train_model\text_142.png,Energi 35 kkal
+data_for_train_model\text_143.png,Energi dari lemak 0 kkal
+data_for_train_model\text_144.png,Lemak total 0 g
+data_for_train_model\text_145.png,Gula 8 g
+data_for_train_model\text_146.png,Karbohidrat total 8 g
+data_for_train_model\text_147.png,Protein 1 g
+data_for_train_model\text_148.png,Natrium 30 mg
+data_for_train_model\text_149.png,Energi 130 kkal
+data_for_train_model\text_150.png,Lemak total 3 g
+data_for_train_model\text_151.png,Karbohidrat total 31 g
+data_for_train_model\text_152.png,Protein 3 g
+data_for_train_model\text_153.png,Natrium 105 mg
+data_for_train_model\text_154.png,Jumlah Per Sajian (30 g)
+data_for_train_model\text_155.png,Energi 130 kkal
+data_for_train_model\text_156.png,Lemak total 3.50 g
+data_for_train_model\text_157.png,Lemak jenuh 2 g
+data_for_train_model\text_158.png,Lemak trans 0 g
+data_for_train_model\text_159.png,Gula 12 g
+data_for_train_model\text_160.png,Kolesterol 0 mg
+data_for_train_model\text_161.png,Karbohidrat total 22 g
+data_for_train_model\text_162.png,Protein 2 g
+data_for_train_model\text_163.png,Asam linoleat 0.31 g
+data_for_train_model\text_164.png,Asam a-linolenat 0.03 g
+data_for_train_model\text_165.png,Serat pangan 1 g
+data_for_train_model\text_166.png,Natrium 105 mg
+data_for_train_model\text_167.png,Kalium 25 mg
+data_for_train_model\text_168.png,Energi 100 kkal
+data_for_train_model\text_169.png,Lemak total 1 g
+data_for_train_model\text_170.png,Karbohidrat total 13 g
+data_for_train_model\text_171.png,Protein 9 g
+data_for_train_model\text_172.png,Natrium 180 mg
+data_for_train_model\text_173.png,Energi 25 kkal
+data_for_train_model\text_174.png,Lemak total 0 g
+data_for_train_model\text_175.png,Karbohidrat total 0 g
+data_for_train_model\text_176.png,Protein 5 g
+data_for_train_model\text_177.png,Natrium 35 mg
+data_for_train_model\text_178.png,Jumlah Per Sajian (225 ml)
+data_for_train_model\text_179.png,Energi 150 kkal
+data_for_train_model\text_180.png,Lemak total 2.50 g
+data_for_train_model\text_181.png,Gula 19 g
+data_for_train_model\text_182.png,Karbohidrat total 25 g
+data_for_train_model\text_183.png,Protein 7 g
+data_for_train_model\text_184.png,Natrium 100 mg
+data_for_train_model\text_185.png,Jumlah Per Sajian (225 ml)
+data_for_train_model\text_186.png,Energi 150 kkal
+data_for_train_model\text_187.png,Lemak total 2.50 g
+data_for_train_model\text_188.png,Gula 22 g
+data_for_train_model\text_189.png,Karbohidrat total 24 g
+data_for_train_model\text_190.png,Protein 7 g
+data_for_train_model\text_191.png,Natrium 125 mg
+data_for_train_model\text_192.png,Jumlah Per Sajian (225 ml)
+data_for_train_model\text_193.png,Energi 160 kkal
+data_for_train_model\text_194.png,Lemak total 5 g
+data_for_train_model\text_195.png,Gula 14 g
+data_for_train_model\text_196.png,Karbohidrat total 25 g
+data_for_train_model\text_197.png,Protein 6 g
+data_for_train_model\text_198.png,Natrium 95 mg
+data_for_train_model\text_199.png,Jumlah Per Sajian (225 ml)
+data_for_train_model\text_200.png,Energi 110 kkal
+data_for_train_model\text_201.png,Lemak total 2.50 g
+data_for_train_model\text_202.png,Gula 16 g
+data_for_train_model\text_203.png,Karbohidrat total 16 g
+data_for_train_model\text_204.png,Protein 7 g
+data_for_train_model\text_205.png,Natrium 110 mg
+data_for_train_model\text_206.png,Jumlah Per Sajian (225 ml)
+data_for_train_model\text_207.png,Energi 140 kkal
+data_for_train_model\text_208.png,Lemak total 7 g
+data_for_train_model\text_209.png,Gula 11 g
+data_for_train_model\text_210.png,Karbohidrat total 13 g
+data_for_train_model\text_211.png,Protein 7 g
+data_for_train_model\text_212.png,Natrium 100 mg
+data_for_train_model\text_213.png,Jumlah Per Sajian (110 ml)
+data_for_train_model\text_214.png,Energi 80 kkal
+data_for_train_model\text_215.png,Lemak total 2.50 g
+data_for_train_model\text_216.png,Karbohidrat total 10 g
+data_for_train_model\text_217.png,Protein 3 g
+data_for_train_model\text_218.png,Natrium 65 mg
+data_for_train_model\text_219.png,Jumlah Per Sajian (225 ml)
+data_for_train_model\text_220.png,Energi 160 kkal
+data_for_train_model\text_221.png,Lemak total 5 g
+data_for_train_model\text_222.png,Lemak jenuh 3 g
+data_for_train_model\text_223.png,Kolesterol 10 mg
+data_for_train_model\text_224.png,Karbohidrat total 24 g
+data_for_train_model\text_225.png,Protein 5 g
+data_for_train_model\text_226.png,Natrium 125 mg
+data_for_train_model\text_227.png,Kalium 300 mg
+data_for_train_model\text_228.png,Energi 130 kkal
+data_for_train_model\text_229.png,Lemak total 4.50 g
+data_for_train_model\text_230.png,Karbohidrat total 22 g
+data_for_train_model\text_231.png,Protein 1 g
+data_for_train_model\text_232.png,Natrium 35 mg
+data_for_train_model\text_233.png,Jumlah Per Sajian (225 ml)
+data_for_train_model\text_234.png,Energi 150 kkal
+data_for_train_model\text_235.png,Lemak total 6 g
+data_for_train_model\text_236.png,Gula 18 g
+data_for_train_model\text_237.png,Karbohidrat total 20 g
+data_for_train_model\text_238.png,Protein 6 g
+data_for_train_model\text_239.png,Natrium 75 mg
+data_for_train_model\text_240.png,Jumlah Per Sajian (45 g)
+data_for_train_model\text_241.png,Energi 190 kkal
+data_for_train_model\text_242.png,Lemak total 4 g
+data_for_train_model\text_243.png,Karbohidrat total 27 g
+data_for_train_model\text_244.png,Protein 10 g
+data_for_train_model\text_245.png,Natrium 110 mg
+data_for_train_model\text_246.png,Energi 120 kkal
+data_for_train_model\text_247.png,Lemak total 0 g
+data_for_train_model\text_248.png,Karbohidrat total 30 g
+data_for_train_model\text_249.png,Protein 0 g
+data_for_train_model\text_250.png,Natrium 55 mg
+data_for_train_model\text_251.png,Jumlah Per Sajian (23 g)
+data_for_train_model\text_252.png,Energi 90 kkal
+data_for_train_model\text_253.png,Lemak total 0 g
+data_for_train_model\text_254.png,Gula 17 g
+data_for_train_model\text_255.png,Karbohidrat total 21 g
+data_for_train_model\text_256.png,Protein 1 g
+data_for_train_model\text_257.png,Natrium 0 mg
+data_for_train_model\text_258.png,Jumlah Per Sajian (23 g)
+data_for_train_model\text_259.png,Energi 90 kkal
+data_for_train_model\text_260.png,Lemak total 0.50 g
+data_for_train_model\text_261.png,Gula 17 g
+data_for_train_model\text_262.png,Karbohidrat total 21 g
+data_for_train_model\text_263.png,Protein 1 g
+data_for_train_model\text_264.png,Natrium 0 mg
+data_for_train_model\text_265.png,Jumlah Per Sajian (23 g)
+data_for_train_model\text_266.png,Energi 90 kkal
+data_for_train_model\text_267.png,Lemak total 0.50 g
+data_for_train_model\text_268.png,Gula 17 g
+data_for_train_model\text_269.png,Karbohidrat total 21 g
+data_for_train_model\text_270.png,Protein 1 g
+data_for_train_model\text_271.png,Natrium 0 mg
+data_for_train_model\text_272.png,Jumlah Per Sajian (20 g)
+data_for_train_model\text_273.png,Energi 100 kkal
+data_for_train_model\text_274.png,Energi dari lemak 40 kkal
+data_for_train_model\text_275.png,Lemak total 4.50 g
+data_for_train_model\text_276.png,Lemak jenuh 4.50 g
+data_for_train_model\text_277.png,Gula 13 g
+data_for_train_model\text_278.png,Karbohidrat total 14 g
+data_for_train_model\text_279.png,Protein 1 g
+data_for_train_model\text_280.png,Serat pangan 1 g
+data_for_train_model\text_281.png,Natrium 100 mg
+data_for_train_model\text_282.png,Jumlah Per Sajian (225 ml)
+data_for_train_model\text_283.png,Energi 50 kkal
+data_for_train_model\text_284.png,Lemak total 0 g
+data_for_train_model\text_285.png,Gula 12 g
+data_for_train_model\text_286.png,Karbohidrat total 14 g
+data_for_train_model\text_287.png,Protein 0 g
+data_for_train_model\text_288.png,Natrium 70 mg
+data_for_train_model\text_289.png,Energi 160 kkal
+data_for_train_model\text_290.png,Lemak total 9 g
+data_for_train_model\text_291.png,Lemak jenuh 3 g
+data_for_train_model\text_292.png,Lemak trans 0 g
+data_for_train_model\text_293.png,Gula 7 g
+data_for_train_model\text_294.png,Kolesterol 25 mg
+data_for_train_model\text_295.png,Karbohidrat total 12 g
+data_for_train_model\text_296.png,Protein 8 g
+data_for_train_model\text_297.png,Serat pangan 1 g
+data_for_train_model\text_298.png,Natrium 75 mg
+data_for_train_model\text_299.png,Kalium 310 mg
+data_for_train_model\text_300.png,Jumlah Per Sajian (23 g)
+data_for_train_model\text_301.png,Energi 104 kkal
+data_for_train_model\text_302.png,Lemak total 3 g
+data_for_train_model\text_303.png,Karbohidrat total 18 g
+data_for_train_model\text_304.png,Protein 1 g
+data_for_train_model\text_305.png,Natrium 27 mg
+data_for_train_model\text_306.png,Jumlah Per Sajian (35 g)
+data_for_train_model\text_307.png,Energi 130 kkal
+data_for_train_model\text_308.png,Lemak total 2 g
+data_for_train_model\text_309.png,Karbohidrat total 21 g
+data_for_train_model\text_310.png,Protein 8 g
+data_for_train_model\text_311.png,Natrium 150 mg
+data_for_train_model\text_312.png,Jumlah Per Sajian (45 g)
+data_for_train_model\text_313.png,Energi 180 kkal
+data_for_train_model\text_314.png,Energi dari lemak 25 kkal
+data_for_train_model\text_315.png,Lemak total 2.50 g
+data_for_train_model\text_316.png,Lemak jenuh 2 g
+data_for_train_model\text_317.png,Lemak trans 0 g
+data_for_train_model\text_318.png,Gula 26 g
+data_for_train_model\text_319.png,Vitamin E 8.20 mg
+data_for_train_model\text_320.png,Vitamin B1 0.45 mg
+data_for_train_model\text_321.png,Vitamin B2 0.60 mg
+data_for_train_model\text_322.png,Vitamin B3 7.30 mg
+data_for_train_model\text_323.png,Vitamin B5 1.80 mg
+data_for_train_model\text_324.png,Vitamin B6 0.55 mg
+data_for_train_model\text_325.png,Vitamin B12 1.70 mcg
+data_for_train_model\text_326.png,Vitamin C 25 mg
+data_for_train_model\text_327.png,Kolesterol 0 mg
+data_for_train_model\text_328.png,Karbohidrat total 33 g
+data_for_train_model\text_329.png,Protein 6 g
+data_for_train_model\text_330.png,Folat 195 mcg
+data_for_train_model\text_331.png,Kalsium 602 mg
+data_for_train_model\text_332.png,Fosfor 297 mg
+data_for_train_model\text_333.png,Magnesium 29 mg
+data_for_train_model\text_334.png,Natrium 135 mg
+data_for_train_model\text_335.png,Mangan 162 mcg
+data_for_train_model\text_336.png,Kromium 2 mcg
+data_for_train_model\text_337.png,Besi 7 mg
+data_for_train_model\text_338.png,Iodium 26 mcg
+data_for_train_model\text_339.png,Seng 2.10 mg
+data_for_train_model\text_340.png,Selenium 7 mcg
+data_for_train_model\text_341.png,Energi 70 kkal
+data_for_train_model\text_342.png,Lemak total 2 g
+data_for_train_model\text_343.png,Karbohidrat total 12 g
+data_for_train_model\text_344.png,Protein 0 g
+data_for_train_model\text_345.png,Natrium 35 mg
+data_for_train_model\text_346.png,Jumlah Per Sajian (330 ml)
+data_for_train_model\text_347.png,Energi 100 kkal
+data_for_train_model\text_348.png,Energi dari lemak 0 kkal
+data_for_train_model\text_349.png,Lemak total 0 g
+data_for_train_model\text_350.png,Gula 24 g
+data_for_train_model\text_351.png,Karbohidrat total 26 g
+data_for_train_model\text_352.png,Protein 0 g
+data_for_train_model\text_353.png,Natrium 35 mg
+data_for_train_model\text_354.png,Jumlah Per Sajian (190 ml)
+data_for_train_model\text_355.png,Energi 120 kkal
+data_for_train_model\text_356.png,Energi dari lemak 35 kkal
+data_for_train_model\text_357.png,Lemak total 4 g
+data_for_train_model\text_358.png,Lemak jenuh 2.50 g
+data_for_train_model\text_359.png,Lemak tidak jenuh tunggal 1 g
+data_for_train_model\text_360.png,Gula 19 g
+data_for_train_model\text_361.png,Kolesterol 2 mg
+data_for_train_model\text_362.png,Karbohidrat total 18 g
+data_for_train_model\text_363.png,Protein 4 g
+data_for_train_model\text_364.png,Serat pangan 2 g
+data_for_train_model\text_365.png,Natrium 75 mg
+data_for_train_model\text_366.png,Jumlah Per Sajian (30 g)
+data_for_train_model\text_367.png,Energi 150 kkal
+data_for_train_model\text_368.png,Lemak total 8 g
+data_for_train_model\text_369.png,Karbohidrat total 13 g
+data_for_train_model\text_370.png,Protein 7 g
+data_for_train_model\text_371.png,Natrium 95 mg
+data_for_train_model\text_372.png,Jumlah Per Sajian (190 ml)
+data_for_train_model\text_373.png,Energi 140 kkal
+data_for_train_model\text_374.png,Lemak total 4.50 g
+data_for_train_model\text_375.png,Karbohidrat total 22 g
+data_for_train_model\text_376.png,Protein 4 g
+data_for_train_model\text_377.png,Natrium 105 mg
+data_for_train_model\text_378.png,Jumlah Per Sajian (15 g)
+data_for_train_model\text_379.png,Energi 60 kkal
+data_for_train_model\text_380.png,Lemak total 0 g
+data_for_train_model\text_381.png,Karbohidrat total 14 g
+data_for_train_model\text_382.png,Protein 0 g
+data_for_train_model\text_383.png,Natrium 35 mg
+data_for_train_model\text_384.png,Energi 30 kkal
+data_for_train_model\text_385.png,Energi dari lemak 0 kkal
+data_for_train_model\text_386.png,Lemak total 0 g
+data_for_train_model\text_387.png,Gula 7 g
+data_for_train_model\text_388.png,Karbohidrat total 8 g
+data_for_train_model\text_389.png,Protein 0 g
+data_for_train_model\text_390.png,Natrium 30 mg
+data_for_train_model\text_391.png,Jumlah Per Sajian (200 ml)
+data_for_train_model\text_392.png,Energi 170 kkal
+data_for_train_model\text_393.png,Energi dari lemak 35 kkal
+data_for_train_model\text_394.png,Lemak total 3.50 g
+data_for_train_model\text_395.png,Lemak jenuh 0 g
+data_for_train_model\text_396.png,Gula 27 g
+data_for_train_model\text_397.png,Kolesterol 0 mg
+data_for_train_model\text_398.png,Karbohidrat total 29 g
+data_for_train_model\text_399.png,Protein 4 g
+data_for_train_model\text_400.png,Natrium 50 mg
+data_for_train_model\text_401.png,Kalium 170 mg
+data_for_train_model\text_402.png,Energi 98 kkal
+data_for_train_model\text_403.png,Lemak total 2 g
+data_for_train_model\text_404.png,Karbohidrat total 17 g
+data_for_train_model\text_405.png,Protein 1 g
+data_for_train_model\text_406.png,Natrium 15 mg
+data_for_train_model\text_407.png,Energi 90 kkal
+data_for_train_model\text_408.png,Lemak total 0 g
+data_for_train_model\text_409.png,Karbohidrat total 21 g
+data_for_train_model\text_410.png,Protein 1 g
+data_for_train_model\text_411.png,Natrium 0 mg
+data_for_train_model\text_412.png,Energi 0 kkal
+data_for_train_model\text_413.png,Lemak total 0 g
+data_for_train_model\text_414.png,Karbohidrat total 0 g
+data_for_train_model\text_415.png,Protein 0 g
+data_for_train_model\text_416.png,Natrium 0 mg
+data_for_train_model\text_417.png,Energi 80 kkal
+data_for_train_model\text_418.png,Energi dari lemak 10 kkal
+data_for_train_model\text_419.png,Lemak total 1 g
+data_for_train_model\text_420.png,Lemak jenuh 1 g
+data_for_train_model\text_421.png,Gula 10 g
+data_for_train_model\text_422.png,Kolesterol 3 mg
+data_for_train_model\text_423.png,Karbohidrat total 15 g
+data_for_train_model\text_424.png,Protein 2 g
+data_for_train_model\text_425.png,Serat pangan 0 g
+data_for_train_model\text_426.png,Natrium 40 mg
+data_for_train_model\text_427.png,Jumlah Per Sajian (40 g)
+data_for_train_model\text_428.png,Energi 160 kkal
+data_for_train_model\text_429.png,Lemak total 3 g
+data_for_train_model\text_430.png,Karbohidrat total 25 g
+data_for_train_model\text_431.png,Protein 8 g
+data_for_train_model\text_432.png,Natrium 135 mg
+data_for_train_model\text_433.png,Jumlah Per Sajian (200 ml)
+data_for_train_model\text_434.png,Energi 160 kkal
+data_for_train_model\text_435.png,Lemak total 4.50 g
+data_for_train_model\text_436.png,Karbohidrat total 22 g
+data_for_train_model\text_437.png,Protein 6 g
+data_for_train_model\text_438.png,Natrium 105 mg
+data_for_train_model\text_439.png,Jumlah Per Sajian (14 g)
+data_for_train_model\text_440.png,Energi 80 kkal
+data_for_train_model\text_441.png,Energi dari lemak 15 kkal
+data_for_train_model\text_442.png,Lemak total 2 g
+data_for_train_model\text_443.png,Lemak jenuh 1 g
+data_for_train_model\text_444.png,Gula 8 g
+data_for_train_model\text_445.png,Kolesterol 0.01 mg
+data_for_train_model\text_446.png,Karbohidrat total 13 g
+data_for_train_model\text_447.png,Protein 2 g
+data_for_train_model\text_448.png,Serat pangan 0 g
+data_for_train_model\text_449.png,Natrium 35 mg
+data_for_train_model\text_450.png,Jumlah Per Sajian (300 ml)
+data_for_train_model\text_451.png,Energi 170 kkal
+data_for_train_model\text_452.png,Lemak total 1.50 g
+data_for_train_model\text_453.png,Karbohidrat total 37 g
+data_for_train_model\text_454.png,Protein 2 g
+data_for_train_model\text_455.png,Natrium 180 mg
+data_for_train_model\text_456.png,Jumlah Per Sajian (180 g)
+data_for_train_model\text_457.png,Energi 100 kkal
+data_for_train_model\text_458.png,Energi dari lemak 10 kkal
+data_for_train_model\text_459.png,Lemak total 1 g
+data_for_train_model\text_460.png,Lemak jenuh 0.50 g
+data_for_train_model\text_461.png,Gula 19 g
+data_for_train_model\text_462.png,Vitamin E 15 mg
+data_for_train_model\text_463.png,Vitamin B3 15 mg
+data_for_train_model\text_464.png,Vitamin B6 15 mg
+data_for_train_model\text_465.png,Kolesterol 6 mg
+data_for_train_model\text_466.png,Karbohidrat total 22 g
+data_for_train_model\text_467.png,Protein 1 g
+data_for_train_model\text_468.png,Kalsium 10 mg
+data_for_train_model\text_469.png,Natrium 110 mg
+data_for_train_model\text_470.png,Jumlah Per Sajian (100 ml)
+data_for_train_model\text_471.png,Energi 83 kkal
+data_for_train_model\text_472.png,Lemak total 4 g
+data_for_train_model\text_473.png,Vitamin A 330 mcg
+data_for_train_model\text_474.png,Vitamin D 2.20 mcg
+data_for_train_model\text_475.png,Vitamin E 3.70 mg
+data_for_train_model\text_476.png,Vitamin K 8.60 mcg
+data_for_train_model\text_477.png,Vitamin B1 118 mg
+data_for_train_model\text_478.png,Vitamin B2 201 mg
+data_for_train_model\text_479.png,Vitamin B3 1.80 mg
+data_for_train_model\text_480.png,Vitamin B5 860 mg
+data_for_train_model\text_481.png,Vitamin B6 116 mg
+data_for_train_model\text_482.png,Vitamin B12 0.25 mcg
+data_for_train_model\text_483.png,Vitamin C 16 mg
+data_for_train_model\text_484.png,Karbohidrat total 9 g
+data_for_train_model\text_485.png,Protein 3 g
+data_for_train_model\text_486.png,Asam linoleat 577 g
+data_for_train_model\text_487.png,Asam a-linolenat 47 g
+data_for_train_model\text_488.png,Serat pangan 0.80 g
+data_for_train_model\text_489.png,Biotin 5 mcg
+data_for_train_model\text_490.png,Kolin 18 mg
+data_for_train_model\text_491.png,Kalsium 91 mg
+data_for_train_model\text_492.png,Fosfor 49 mg
+data_for_train_model\text_493.png,Magnesium 8.10 mg
+data_for_train_model\text_494.png,Natrium 70 mg
+data_for_train_model\text_495.png,Kalium 109 mg
+data_for_train_model\text_496.png,Mangan 6.90 mcg
+data_for_train_model\text_497.png,Tembaga 75 mg
+data_for_train_model\text_498.png,Besi 1.50 mg
+data_for_train_model\text_499.png,Iodium 25 mcg
+data_for_train_model\text_500.png,Seng 0.90 mg
+data_for_train_model\text_501.png,Energi 50 kkal
+data_for_train_model\text_502.png,Lemak total 0 g
+data_for_train_model\text_503.png,Gula 11 g
+data_for_train_model\text_504.png,Vitamin A 269 mcg
+data_for_train_model\text_505.png,Vitamin E 5.20 mg
+data_for_train_model\text_506.png,Vitamin B1 0.14 mg
+data_for_train_model\text_507.png,Vitamin B3 3.20 mg
+data_for_train_model\text_508.png,Vitamin B6 0.56 mg
+data_for_train_model\text_509.png,Vitamin C 90 mg
+data_for_train_model\text_510.png,Karbohidrat total 14 g
+data_for_train_model\text_511.png,Protein 0 g
+data_for_train_model\text_512.png,Folat 63 mcg
+data_for_train_model\text_513.png,Kalsium 50 mg
+data_for_train_model\text_514.png,Natrium 50 mg
+data_for_train_model\text_515.png,Energi 50 kkal
+data_for_train_model\text_516.png,Lemak total 0 g
+data_for_train_model\text_517.png,Lemak jenuh 0 g
+data_for_train_model\text_518.png,Gula 11 g
+data_for_train_model\text_519.png,Vitamin A 322 mcg
+data_for_train_model\text_520.png,Vitamin D 180 mcg
+data_for_train_model\text_521.png,Vitamin E 2.50 mg
+data_for_train_model\text_522.png,Vitamin B1 0.22 mg
+data_for_train_model\text_523.png,Vitamin B3 2.40 mg
+data_for_train_model\text_524.png,Vitamin B6 0.22 mg
+data_for_train_model\text_525.png,Vitamin C 90 mg
+data_for_train_model\text_526.png,Karbohidrat total 13 g
+data_for_train_model\text_527.png,Protein 0 g
+data_for_train_model\text_528.png,Kalsium 89 mg
+data_for_train_model\text_529.png,Fosfor 14 mg
+data_for_train_model\text_530.png,Natrium 5 mg
+data_for_train_model\text_531.png,Energi 140 kkal
+data_for_train_model\text_532.png,Lemak total 3 g
+data_for_train_model\text_533.png,Karbohidrat total 26 g
+data_for_train_model\text_534.png,Protein 2 g
+data_for_train_model\text_535.png,Natrium 35 mg
+data_for_train_model\text_536.png,Jumlah Per Sajian (40 g)
+data_for_train_model\text_537.png,Energi 150 kkal
+data_for_train_model\text_538.png,Lemak total 1 g
+data_for_train_model\text_539.png,Karbohidrat total 29 g
+data_for_train_model\text_540.png,Protein 6 g
+data_for_train_model\text_541.png,Natrium 150 mg
+data_for_train_model\text_542.png,Energi 150 kkal
+data_for_train_model\text_543.png,Lemak total 1 g
+data_for_train_model\text_544.png,Karbohidrat total 29 g
+data_for_train_model\text_545.png,Protein 7 g
+data_for_train_model\text_546.png,Natrium 110 mg
+data_for_train_model\text_547.png,Energi 120 kkal
+data_for_train_model\text_548.png,Lemak total 6 g
+data_for_train_model\text_549.png,Karbohidrat total 9 g
+data_for_train_model\text_550.png,Protein 6 g
+data_for_train_model\text_551.png,Natrium 40 mg
+data_for_train_model\text_552.png,Energi 90 kkal
+data_for_train_model\text_553.png,Lemak total 0 g
+data_for_train_model\text_554.png,Karbohidrat total 19 g
+data_for_train_model\text_555.png,Protein 3 g
+data_for_train_model\text_556.png,Natrium 630 mg
+data_for_train_model\text_557.png,Energi 0 kkal
+data_for_train_model\text_558.png,Lemak total 0 g
+data_for_train_model\text_559.png,Karbohidrat total 0 g
+data_for_train_model\text_560.png,Protein 0 g
+data_for_train_model\text_561.png,Natrium 0 mg
+data_for_train_model\text_562.png,Jumlah Per Sajian (150 ml)
+data_for_train_model\text_563.png,Energi 100 kkal
+data_for_train_model\text_564.png,Lemak total 3 g
+data_for_train_model\text_565.png,Karbohidrat total 18 g
+data_for_train_model\text_566.png,Protein 1 g
+data_for_train_model\text_567.png,Natrium 70 mg
+data_for_train_model\text_568.png,Jumlah Per Sajian (23 g)
+data_for_train_model\text_569.png,Energi 100 kkal
+data_for_train_model\text_570.png,Lemak total 3 g
+data_for_train_model\text_571.png,Karbohidrat total 18 g
+data_for_train_model\text_572.png,Protein 1 g
+data_for_train_model\text_573.png,Natrium 70 mg
+data_for_train_model\text_574.png,Jumlah Per Sajian (30 g)
+data_for_train_model\text_575.png,Energi 130 kkal
+data_for_train_model\text_576.png,Energi dari lemak 25 kkal
+data_for_train_model\text_577.png,Lemak total 3 g
+data_for_train_model\text_578.png,Lemak jenuh 1 g
+data_for_train_model\text_579.png,Gula 16 g
+data_for_train_model\text_580.png,Kolesterol 0 mg
+data_for_train_model\text_581.png,Karbohidrat total 24 g
+data_for_train_model\text_582.png,Protein 2 g
+data_for_train_model\text_583.png,Serat pangan 1 g
+data_for_train_model\text_584.png,Natrium 70 mg
+data_for_train_model\text_585.png,Jumlah Per Sajian (200 ml)
+data_for_train_model\text_586.png,Energi 160 kkal
+data_for_train_model\text_587.png,Lemak total 3 g
+data_for_train_model\text_588.png,Karbohidrat total 26 g
+data_for_train_model\text_589.png,Protein 8 g
+data_for_train_model\text_590.png,Natrium 120 mg
+data_for_train_model\text_591.png,Jumlah Per Sajian (70 g)
+data_for_train_model\text_592.png,Energi 70 kkal
+data_for_train_model\text_593.png,Lemak total 2 g
+data_for_train_model\text_594.png,Karbohidrat total 11 g
+data_for_train_model\text_595.png,Protein 2 g
+data_for_train_model\text_596.png,Natrium 60 mg
+data_for_train_model\text_597.png,Jumlah Per Sajian (70 g)
+data_for_train_model\text_598.png,Energi 70 kkal
+data_for_train_model\text_599.png,Lemak total 2 g
+data_for_train_model\text_600.png,Gula 8 g
+data_for_train_model\text_601.png,Karbohidrat total 10 g
+data_for_train_model\text_602.png,Protein 2 g
+data_for_train_model\text_603.png,Natrium 35 mg
+data_for_train_model\text_604.png,Jumlah Per Sajian (28.80 g)
+data_for_train_model\text_605.png,Energi 140 kkal
+data_for_train_model\text_606.png,Lemak total 6 g
+data_for_train_model\text_607.png,Gula 16.20 g
+data_for_train_model\text_608.png,Vitamin A 104 mcg
+data_for_train_model\text_609.png,Vitamin D 1.66 mcg
+data_for_train_model\text_610.png,Vitamin E 0.98 mg
+data_for_train_model\text_611.png,Vitamin K 5.40 mcg
+data_for_train_model\text_612.png,Vitamin B1 86 mg
+data_for_train_model\text_613.png,Vitamin B2 252 mg
+data_for_train_model\text_614.png,Vitamin B3 560 mg
+data_for_train_model\text_615.png,Vitamin B5 560 mg
+data_for_train_model\text_616.png,Vitamin B6 66 mg
+data_for_train_model\text_617.png,Vitamin B12 0.28 mcg
+data_for_train_model\text_618.png,Vitamin C 15.40 mg
+data_for_train_model\text_619.png,Karbohidrat total 18 g
+data_for_train_model\text_620.png,Protein 3 g
+data_for_train_model\text_621.png,Asam linoleat 1092 g
+data_for_train_model\text_622.png,Asam a-linolenat 88 g
+data_for_train_model\text_623.png,Serat pangan 0.80 g
+data_for_train_model\text_624.png,Folat 15.80 mcg
+data_for_train_model\text_625.png,Biotin 2.20 mcg
+data_for_train_model\text_626.png,Kolin 16.80 mg
+data_for_train_model\text_627.png,Kalsium 94 mg
+data_for_train_model\text_628.png,Fosfor 88 mg
+data_for_train_model\text_629.png,Magnesium 9.80 mg
+data_for_train_model\text_630.png,Natrium 64 mg
+data_for_train_model\text_631.png,Kalium 154 mg
+data_for_train_model\text_632.png,Mangan 60 mcg
+data_for_train_model\text_633.png,Tembaga 62 mg
+data_for_train_model\text_634.png,Besi 2.20 mg
+data_for_train_model\text_635.png,Energi 200 kkal
+data_for_train_model\text_636.png,Lemak total 3 g
+data_for_train_model\text_637.png,Karbohidrat total 29 g
+data_for_train_model\text_638.png,Protein 5 g
+data_for_train_model\text_639.png,Natrium 220 mg
+data_for_train_model\text_640.png,Jumlah Per Sajian (45 g)
+data_for_train_model\text_641.png,Energi 190 kkal
+data_for_train_model\text_642.png,Lemak total 5 g
+data_for_train_model\text_643.png,Karbohidrat total 26 g
+data_for_train_model\text_644.png,Protein 9 g
+data_for_train_model\text_645.png,Natrium 115 mg
+data_for_train_model\text_646.png,Energi 170 kkal
+data_for_train_model\text_647.png,Lemak total 6 g
+data_for_train_model\text_648.png,Karbohidrat total 23 g
+data_for_train_model\text_649.png,Protein 4.50 g
+data_for_train_model\text_650.png,Natrium 90 mg
+data_for_train_model\text_651.png,Jumlah Per Sajian (125 ml)
+data_for_train_model\text_652.png,Energi 90 kkal
+data_for_train_model\text_653.png,Lemak total 2.50 g
+data_for_train_model\text_654.png,Karbohidrat total 15 g
+data_for_train_model\text_655.png,Protein 10 g
+data_for_train_model\text_656.png,Natrium 140 mg
+data_for_train_model\text_657.png,Energi 120 kkal
+data_for_train_model\text_658.png,Lemak total 6 g
+data_for_train_model\text_659.png,Karbohidrat total 10 g
+data_for_train_model\text_660.png,Protein 6 g
+data_for_train_model\text_661.png,Natrium 100 mg
+data_for_train_model\text_662.png,Energi 150 kkal
+data_for_train_model\text_663.png,Energi dari lemak 70 kkal
+data_for_train_model\text_664.png,Lemak total 3.50 g
+data_for_train_model\text_665.png,Lemak jenuh 3.50 g
+data_for_train_model\text_666.png,Lemak trans 0 g
+data_for_train_model\text_667.png,Gula 11 g
+data_for_train_model\text_668.png,Vitamin A 25 mcg
+data_for_train_model\text_669.png,Vitamin C 30 mg
+data_for_train_model\text_670.png,Kolesterol 25 mg
+data_for_train_model\text_671.png,Karbohidrat total 12 g
+data_for_train_model\text_672.png,Protein 8 g
+data_for_train_model\text_673.png,Serat pangan 1 g
+data_for_train_model\text_674.png,Kalsium 35 mg
+data_for_train_model\text_675.png,Natrium 160 mg
+data_for_train_model\text_676.png,Besi 6 mg
+data_for_train_model\text_677.png,Jumlah Per Sajian (200 ml)
+data_for_train_model\text_678.png,Energi 80 kkal
+data_for_train_model\text_679.png,Energi dari lemak 25 kkal
+data_for_train_model\text_680.png,Lemak total 2.50 g
+data_for_train_model\text_681.png,Lemak jenuh 1.50 g
+data_for_train_model\text_682.png,Lemak trans 0 g
+data_for_train_model\text_683.png,Gula 6 g
+data_for_train_model\text_684.png,Vitamin A 45 mcg
+data_for_train_model\text_685.png,Kolesterol 10 mg
+data_for_train_model\text_686.png,Karbohidrat total 9 g
+data_for_train_model\text_687.png,Protein 6 g
+data_for_train_model\text_688.png,Kalsium 35 mg
+data_for_train_model\text_689.png,Natrium 90 mg
+data_for_train_model\text_690.png,Besi 4 mg
+data_for_train_model\text_691.png,Jumlah Per Sajian (200 ml)
+data_for_train_model\text_692.png,Energi 90 kkal
+data_for_train_model\text_693.png,Lemak total 2.50 g
+data_for_train_model\text_694.png,Lemak jenuh 1.50 g
+data_for_train_model\text_695.png,Kolesterol 10 mg
+data_for_train_model\text_696.png,Karbohidrat total 11 g
+data_for_train_model\text_697.png,Protein 7 g
+data_for_train_model\text_698.png,Natrium 105 mg
+data_for_train_model\text_699.png,Jumlah Per Sajian (250 g)
+data_for_train_model\text_700.png,Energi 200 kkal
+data_for_train_model\text_701.png,Energi dari lemak 45 kkal
+data_for_train_model\text_702.png,Lemak total 5 g
+data_for_train_model\text_703.png,Lemak jenuh 4 g
+data_for_train_model\text_704.png,Gula 24 g
+data_for_train_model\text_705.png,Kolesterol 14 mg
+data_for_train_model\text_706.png,Karbohidrat total 30 g
+data_for_train_model\text_707.png,Protein 8 g
+data_for_train_model\text_708.png,Natrium 55 mg
+data_for_train_model\text_709.png,Kalium 320 mg
+data_for_train_model\text_710.png,Energi 160 kkal
+data_for_train_model\text_711.png,Lemak total 4 g
+data_for_train_model\text_712.png,Lemak jenuh 3 g
+data_for_train_model\text_713.png,Kolesterol 10 mg
+data_for_train_model\text_714.png,Karbohidrat total 24 g
+data_for_train_model\text_715.png,Protein 6 g
+data_for_train_model\text_716.png,Natrium 45 mg
+data_for_train_model\text_717.png,Kalium 260 mg
+data_for_train_model\text_718.png,Energi 90 kkal
+data_for_train_model\text_719.png,Energi dari lemak 25 kkal
+data_for_train_model\text_720.png,Lemak total 2.50 g
+data_for_train_model\text_721.png,Lemak jenuh 2 g
+data_for_train_model\text_722.png,Gula 10 g
+data_for_train_model\text_723.png,Kolesterol 10 mg
+data_for_train_model\text_724.png,Karbohidrat total 14 g
+data_for_train_model\text_725.png,Protein 2 g
+data_for_train_model\text_726.png,Asam linoleat 251 g
+data_for_train_model\text_727.png,Asam a-linolenat 44 g
+data_for_train_model\text_728.png,Serat pangan 3 g
+data_for_train_model\text_729.png,Natrium 90 mg
+data_for_train_model\text_730.png,Energi 90 kkal
+data_for_train_model\text_731.png,Lemak total 2.50 g
+data_for_train_model\text_732.png,Lemak jenuh 1.50 g
+data_for_train_model\text_733.png,Gula 10 g
+data_for_train_model\text_734.png,Kolesterol 10 mg
+data_for_train_model\text_735.png,Karbohidrat total 15 g
+data_for_train_model\text_736.png,Protein 3 g
+data_for_train_model\text_737.png,Asam linoleat 353 g
+data_for_train_model\text_738.png,Asam a-linolenat 63 g
+data_for_train_model\text_739.png,Serat pangan 4 g
+data_for_train_model\text_740.png,Natrium 140 mg
+data_for_train_model\text_741.png,Energi 80 kkal
+data_for_train_model\text_742.png,Energi dari lemak 15 kkal
+data_for_train_model\text_743.png,Lemak total 1.50 g
+data_for_train_model\text_744.png,Lemak jenuh 1.50 g
+data_for_train_model\text_745.png,Gula 12 g
+data_for_train_model\text_746.png,Kolesterol 4 mg
+data_for_train_model\text_747.png,Karbohidrat total 15 g
+data_for_train_model\text_748.png,Protein 1 g
+data_for_train_model\text_749.png,Asam linoleat 225 g
+data_for_train_model\text_750.png,Asam a-linolenat 39 g
+data_for_train_model\text_751.png,Serat pangan 2 g
+data_for_train_model\text_752.png,Natrium 90 mg
+data_for_train_model\text_753.png,Jumlah Per Sajian (2 g)
+data_for_train_model\text_754.png,Energi 0 kkal
+data_for_train_model\text_755.png,Lemak total 0 g
+data_for_train_model\text_756.png,Karbohidrat total 0 g
+data_for_train_model\text_757.png,Protein 0 g
+data_for_train_model\text_758.png,Natrium 0 mg
+data_for_train_model\text_759.png,Jumlah Per Sajian (1.60 g)
+data_for_train_model\text_760.png,Energi 0 kkal
+data_for_train_model\text_761.png,Lemak total 0 g
+data_for_train_model\text_762.png,Karbohidrat total 0 g
+data_for_train_model\text_763.png,Protein 0 g
+data_for_train_model\text_764.png,Natrium 0 mg
+data_for_train_model\text_765.png,Jumlah Per Sajian (15 g)
+data_for_train_model\text_766.png,Energi 60 kkal
+data_for_train_model\text_767.png,Lemak total 0 g
+data_for_train_model\text_768.png,Karbohidrat total 15 g
+data_for_train_model\text_769.png,Protein 0 g
+data_for_train_model\text_770.png,Natrium 10 mg
+data_for_train_model\text_771.png,Jumlah Per Sajian (22 g)
+data_for_train_model\text_772.png,Energi 100 kkal
+data_for_train_model\text_773.png,Lemak total 2.50 g
+data_for_train_model\text_774.png,Lemak jenuh 2.50 g
+data_for_train_model\text_775.png,Gula 14 g
+data_for_train_model\text_776.png,Karbohidrat total 18 g
+data_for_train_model\text_777.png,Protein 1 g
+data_for_train_model\text_778.png,Natrium 35 mg
+data_for_train_model\text_779.png,Jumlah Per Sajian (200 ml)
+data_for_train_model\text_780.png,Energi 90 kkal
+data_for_train_model\text_781.png,Lemak total 2.50 g
+data_for_train_model\text_782.png,Lemak jenuh 1.50 g
+data_for_train_model\text_783.png,Kolesterol 10 mg
+data_for_train_model\text_784.png,Karbohidrat total 11 g
+data_for_train_model\text_785.png,Protein 7 g
+data_for_train_model\text_786.png,Natrium 105 mg
+data_for_train_model\text_787.png,Jumlah Per Sajian (250 ml)
+data_for_train_model\text_788.png,Energi 130 kkal
+data_for_train_model\text_789.png,Lemak total 0 g
+data_for_train_model\text_790.png,Karbohidrat total 32 g
+data_for_train_model\text_791.png,Protein 0 g
+data_for_train_model\text_792.png,Natrium 0 mg
+data_for_train_model\text_793.png,Jumlah Per Sajian (250 ml)
+data_for_train_model\text_794.png,Energi 90 kkal
+data_for_train_model\text_795.png,Lemak total 0 g
+data_for_train_model\text_796.png,Karbohidrat total 22 g
+data_for_train_model\text_797.png,Protein 2 g
+data_for_train_model\text_798.png,Natrium 0 mg
+data_for_train_model\text_799.png,Jumlah Per Sajian (200 ml)
+data_for_train_model\text_800.png,Energi 138 kkal
+data_for_train_model\text_801.png,Lemak total 6 g
+data_for_train_model\text_802.png,Lemak jenuh 2.40 g
+data_for_train_model\text_803.png,Lemak trans 0 g
+data_for_train_model\text_804.png,Lemak tidak jenuh tunggal 1.40 g
+data_for_train_model\text_805.png,Lemak tidak jenuh ganda 1.80 g
+data_for_train_model\text_806.png,Gula 14 g
+data_for_train_model\text_807.png,Vitamin A 122 mcg
+data_for_train_model\text_808.png,Vitamin D 1.60 mcg
+data_for_train_model\text_809.png,Vitamin E 1.40 mg
+data_for_train_model\text_810.png,Vitamin B1 0.20 mg
+data_for_train_model\text_811.png,Vitamin B2 0.20 mg
+data_for_train_model\text_812.png,Vitamin B12 0.40 mcg
+data_for_train_model\text_813.png,Kolesterol 0 mg
+data_for_train_model\text_814.png,Karbohidrat total 15.20 g
+data_for_train_model\text_815.png,Protein 5.40 g
+data_for_train_model\text_816.png,Serat pangan 1.20 g
+data_for_train_model\text_817.png,Folat 80 mcg
+data_for_train_model\text_818.png,Magnesium 36 mg
+data_for_train_model\text_819.png,Natrium 106 mg
+data_for_train_model\text_820.png,Besi 1 mg
+data_for_train_model\text_821.png,Iodium 30 mcg
+data_for_train_model\text_822.png,Energi 56 kkal
+data_for_train_model\text_823.png,Lemak total 2.70 g
+data_for_train_model\text_824.png,Lemak jenuh 1.10 g
+data_for_train_model\text_825.png,Lemak trans 0 g
+data_for_train_model\text_826.png,Gula 2.20 g
+data_for_train_model\text_827.png,Kolesterol 0 mg
+data_for_train_model\text_828.png,Karbohidrat total 5.20 g
+data_for_train_model\text_829.png,Protein 2.70 g
+data_for_train_model\text_830.png,Natrium 0 mg
+data_for_train_model\text_831.png,Energi 30 kkal
+data_for_train_model\text_832.png,Lemak total 0 g
+data_for_train_model\text_833.png,Karbohidrat total 7 g
+data_for_train_model\text_834.png,Protein 0 g
+data_for_train_model\text_835.png,Natrium 280 mg
+data_for_train_model\text_836.png,Jumlah Per Sajian (30 g)
+data_for_train_model\text_837.png,Energi 110 kkal
+data_for_train_model\text_838.png,Lemak total 1 g
+data_for_train_model\text_839.png,Karbohidrat total 21 g
+data_for_train_model\text_840.png,Protein 5 g
+data_for_train_model\text_841.png,Natrium 35 mg
+data_for_train_model\text_842.png,Energi 150 kkal
+data_for_train_model\text_843.png,Lemak total 3 g
+data_for_train_model\text_844.png,Karbohidrat total 23 g
+data_for_train_model\text_845.png,Protein 7 g
+data_for_train_model\text_846.png,Natrium 70 mg
+data_for_train_model\text_847.png,Jumlah Per Sajian (250 g)
+data_for_train_model\text_848.png,Energi 180 kkal
+data_for_train_model\text_849.png,Lemak total 2 g
+data_for_train_model\text_850.png,Gula 26 g
+data_for_train_model\text_851.png,Karbohidrat total 36 g
+data_for_train_model\text_852.png,Protein 6 g
+data_for_train_model\text_853.png,Serat pangan 5 g
+data_for_train_model\text_854.png,Natrium 90 mg
+data_for_train_model\text_855.png,Jumlah Per Sajian (125 g)
+data_for_train_model\text_856.png,Energi 140 kkal
+data_for_train_model\text_857.png,Lemak total 4 g
+data_for_train_model\text_858.png,Lemak jenuh 2.50 g
+data_for_train_model\text_859.png,Kolesterol 10 mg
+data_for_train_model\text_860.png,Karbohidrat total 22 g
+data_for_train_model\text_861.png,Protein 4 g
+data_for_train_model\text_862.png,Serat pangan 4 g
+data_for_train_model\text_863.png,Natrium 30 mg
+data_for_train_model\text_864.png,Energi 150 kkal
+data_for_train_model\text_865.png,Lemak total 0 g
+data_for_train_model\text_866.png,Gula 37 g
+data_for_train_model\text_867.png,Vitamin C 1000 mg
+data_for_train_model\text_868.png,Karbohidrat total 37 g
+data_for_train_model\text_869.png,Protein 0 g
+data_for_train_model\text_870.png,Natrium 60 mg
